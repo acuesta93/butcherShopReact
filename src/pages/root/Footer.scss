@@ -1,0 +1,30 @@
+.footer {
+  background-color: var(--primary);
+  color: var(--secondary);
+  width: 100%;
+  justify-content: space-evenly;
+  padding: 15px;
+
+  .footer-side{
+      width: auto;
+      height: 100%;
+
+      &.footer-left{
+        justify-content: center;
+      }
+
+      &.footer-right{
+          justify-content: center;
+      }
+  }
+
+  .footer-option{
+      justify-content: left;
+      text-align: center;
+      margin: 0.5em  0px;
+
+      .footer-option-icon {
+        margin-right:1em;
+      }
+  }
+}

@@ -1,0 +1,29 @@
+.carrousel {
+  .carrousel-content {
+  }
+
+  .arrows {
+    font-size: 38px;
+    color: var(--primary);
+
+
+    transition: background-color 150ms linear, color 150ms linear,
+      box-shadow 150ms ease-in-out, transform 150ms ease-in-out;
+
+    &.arrow-left {
+    }
+
+    &.arrow-right {
+    }
+
+    &:hover {
+      color: var(--primary-light);
+      transform: translateY(1px);
+    }
+
+    &:active {
+      color: var(--primary-lighter);
+      transform: translateY(2px);
+    }
+  }
+}
