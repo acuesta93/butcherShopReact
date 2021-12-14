@@ -3,8 +3,15 @@ import React from "react";
 import { Button, Row } from "components";
 
 import "./Header.scss";
+import {
+  faShoppingBag,
+  faShoppingBasket,
+  faHome
+} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 enum HeaderOptionEnum {
+  Home = "home",
   Offers = "offers",
   TopSales = "top-sales",
   Explore = "explore",
@@ -15,6 +22,9 @@ interface HeaderProps {}
 export const Header = (props: HeaderProps) => {
   const onOptionClick = (option: HeaderOptionEnum) => {
     switch (option) {
+      case HeaderOptionEnum.Home: {
+        break;
+      }
       case HeaderOptionEnum.Offers: {
         break;
       }
@@ -33,6 +43,11 @@ export const Header = (props: HeaderProps) => {
   return (
     <Row className="header">
       <Row className="header-side header-left">
+        <HeaderOption
+          label={<FontAwesomeIcon className= 'home-icon' icon={faHome} />}
+          option={HeaderOptionEnum.Home}
+          onOptionClick={onOptionClick}
+        />
         <HeaderOption
           label="Offers"
           option={HeaderOptionEnum.Offers}
@@ -56,12 +71,16 @@ export const Header = (props: HeaderProps) => {
           onOptionClick={onOptionClick}
         />
       </Row>
+
+      <Row className="cart-icon-wrapper">
+        <FontAwesomeIcon className="shopping-basket" icon={faShoppingBasket} />
+      </Row>
     </Row>
   );
 };
 
 interface HeaderOptionProps {
-  label: string;
+  label: string | React.ReactElement;
   option: HeaderOptionEnum;
   onOptionClick(option: HeaderOptionEnum): void;
 }

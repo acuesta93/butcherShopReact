@@ -1,19 +1,38 @@
 .carrousel {
+  position: relative;
+
+  overflow: hidden;
+
+  margin: 2em 0px;
+
   .carrousel-content {
+    overflow: visible;
+
+    width: 100%;
+
+    z-index: 9;
+
+
+    transition: transform 300ms ease-in-out;
   }
 
   .arrows {
+    position: absolute;
+
     font-size: 38px;
     color: var(--primary);
 
+    z-index: 10;
 
     transition: background-color 150ms linear, color 150ms linear,
       box-shadow 150ms ease-in-out, transform 150ms ease-in-out;
 
     &.arrow-left {
+      left: 4px;
     }
 
     &.arrow-right {
+      right: 4px;
     }
 
     &:hover {
@@ -26,4 +45,10 @@
       transform: translateY(2px);
     }
   }
+}
+
+
+.carrousel-child {
+  width: 100%;
+  min-width: 100%;
 }

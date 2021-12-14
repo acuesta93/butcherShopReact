@@ -1,0 +1,43 @@
+.carrousel-child {
+  width: 100%;
+  min-width: 100%;
+
+  justify-content: center;
+  align-items: center;
+
+  height: 300px;
+
+  background-color: var(--secondary);
+  color: var(--primary);
+  z-index: 10;
+
+  &:nth-child(2) {
+    background-color: red;
+  }
+
+  &:nth-child(3) {
+    background-color: yellow;
+  }
+
+  &:nth-child(4) {
+    background-color: orange;
+  }
+
+  &:nth-child(5) {
+    background-color: purple;
+  }
+
+}
+
+.home-message {
+  width: 90%;
+  height: 200px;
+  justify-content: space-between;
+  color: var(--primary);
+
+  .img-wrapper {
+    z-index: -1; 
+    justify-content: flex-start;
+  }
+
+}

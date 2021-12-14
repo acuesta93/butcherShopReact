@@ -1,14 +1,30 @@
-import { Row } from 'components';
-import React from 'react';
-import { Carrousel } from './Carrousel';
+import React from "react";
 
-import './HomeContent.scss';
+import { Row, Column } from "components";
 
+import { Carrousel, CarrouseChild } from "./Carrousel";
 
-interface HomeContentProps {
+import chefImage from "assets/img/chef.jpg";
 
-}
+import "./HomeContent.scss";
+
+interface HomeContentProps {}
 export const HomeContent = (props: HomeContentProps) => {
-    return <Row><Carrousel /></Row>
-}
-
+  return (
+    <Column>
+      <Row className="home-message">
+        <Row className="img-wrapper">
+          <img src={chefImage} />
+        </Row>
+        <Row className="text-wrapper">Hola, amigos de YouTube. <br></br> Soy Iván el cocinero.</Row>
+      </Row>
+      <Carrousel>
+        <CarrouseChild>Child 1</CarrouseChild>
+        <CarrouseChild>Child 2</CarrouseChild>
+        <CarrouseChild>Child 3</CarrouseChild>
+        <CarrouseChild>Child 4</CarrouseChild>
+        <CarrouseChild>Child 5</CarrouseChild>
+      </Carrousel>
+    </Column>
+  );
+};
