@@ -1,5 +1,7 @@
 import React from "react";
 
+import {useNavigate, Link} from 'react-router-dom'
+
 import { Button, Row } from "components";
 
 import "./Header.scss";
@@ -20,12 +22,16 @@ enum HeaderOptionEnum {
 
 interface HeaderProps {}
 export const Header = (props: HeaderProps) => {
+  const navigate = useNavigate();
+
   const onOptionClick = (option: HeaderOptionEnum) => {
     switch (option) {
       case HeaderOptionEnum.Home: {
+        navigate('/')
         break;
       }
       case HeaderOptionEnum.Offers: {
+        navigate('/offers')
         break;
       }
       case HeaderOptionEnum.TopSales: {
@@ -90,7 +96,10 @@ const HeaderOption = (props: HeaderOptionProps) => {
       className="header-option"
       onClick={() => props.onOptionClick(props.option)}
     >
-      <span className="header-option-label">{props.label}</span>
+      <span className="header-option-label">
+        {props.label}
+      </span>
     </Row>
   );
 };
+

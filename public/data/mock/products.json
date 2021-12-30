@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "Costillas",
+    "originAnimal": "pig",
+    "weight": 1000,
+    "units": 4,
+    "description": "Costillas de cerdo, 4 unidades. 1Kg",
+    "expirationDate": "2021-12-30T15:48:31.754Z",
+    "imageUri": "/images/mock/costillas.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Costillas",
+    "originAnimal": "pig",
+    "weight": 1000,
+    "units": 4,
+    "description": "Costillas de cerdo, 4 unidades. 1Kg",
+    "expirationDate": "2021-12-30T15:48:31.754Z",
+    "imageUri": "/images/mock/costillas.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Costillas",
+    "originAnimal": "pig",
+    "weight": 1000,
+    "units": 4,
+    "description": "Costillas de cerdo, 4 unidades. 1Kg",
+    "expirationDate": "2021-12-30T15:48:31.754Z",
+    "imageUri": "/images/mock/costillas.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Costillas",
+    "originAnimal": "pig",
+    "weight": 1000,
+    "units": 4,
+    "description": "Costillas de cerdo, 4 unidades. 1Kg",
+    "expirationDate": "2021-12-30T15:48:31.754Z",
+    "imageUri": "/images/mock/costillas.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Costillas",
+    "originAnimal": "pig",
+    "weight": 1000,
+    "units": 4,
+    "description": "Costillas de cerdo, 4 unidades. 1Kg",
+    "expirationDate": "2021-12-30T15:48:31.754Z",
+    "imageUri": "/images/mock/costillas.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Costillas",
+    "originAnimal": "pig",
+    "weight": 1000,
+    "units": 4,
+    "description": "Costillas de cerdo, 4 unidades. 1Kg",
+    "expirationDate": "2021-12-30T15:48:31.754Z",
+    "imageUri": "/images/mock/costillas.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Costillas",
+    "originAnimal": "pig",
+    "weight": 1000,
+    "units": 4,
+    "description": "Costillas de cerdo, 4 unidades. 1Kg",
+    "expirationDate": "2021-12-30T15:48:31.754Z",
+    "imageUri": "/images/mock/costillas.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Costillas",
+    "originAnimal": "pig",
+    "weight": 1000,
+    "units": 4,
+    "description": "Costillas de cerdo, 4 unidades. 1Kg",
+    "expirationDate": "2021-12-30T15:48:31.754Z",
+    "imageUri": "/images/mock/costillas.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Costillas",
+    "originAnimal": "pig",
+    "weight": 1000,
+    "units": 4,
+    "description": "Costillas de cerdo, 4 unidades. 1Kg",
+    "expirationDate": "2021-12-30T15:48:31.754Z",
+    "imageUri": "/images/mock/costillas.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Costillas",
+    "originAnimal": "pig",
+    "weight": 1000,
+    "units": 4,
+    "description": "Costillas de cerdo, 4 unidades. 1Kg",
+    "expirationDate": "2021-12-30T15:48:31.754Z",
+    "imageUri": "/images/mock/costillas.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Costillas",
+    "originAnimal": "pig",
+    "weight": 1000,
+    "units": 4,
+    "description": "Costillas de cerdo, 4 unidades. 1Kg",
+    "expirationDate": "2021-12-30T15:48:31.754Z",
+    "imageUri": "/images/mock/costillas.jpg"
+  }
+]

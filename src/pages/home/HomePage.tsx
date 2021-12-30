@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Button, Row, Column } from 'components';
+import { Column } from 'components';
 
 import { HomeContent } from './HomeContent';
 
@@ -14,7 +14,7 @@ export const HomePage = () => {
         <Header />
         <HomeContent/>
         <Footer />
-      </Column>
-
-            
+      </Column>            
 }
+
+export {HomePage as default} 

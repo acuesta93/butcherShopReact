@@ -1,12 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import { HomePage } from './pages/home';
-import './App.css';
 import { Router } from './pages/root/Router';
+
+import logo from './logo.svg';
+
+import './App.css';
 
 function App() {
   return (
-    <Router />
+    <React.Suspense fallback='loading...'>
+      <Router />
+    </React.Suspense>
   );
 }
 
