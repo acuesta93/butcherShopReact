@@ -1,0 +1,37 @@
+@import 'shadows';
+
+.card {
+    background-color: var(--primary);;
+    color: var(--secondary);
+    max-width: 20%;
+    margin: 10px;
+    box-shadow: inset;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    cursor: pointer;
+
+    @include shadow-4dp();
+
+    transition: background-color 150ms linear, color 150ms linear, box-shadow 150ms ease-in-out, transform 150ms ease-in-out;
+    transform: translateY(1px);
+
+    &:hover {
+        background-color: var(--primary-dark);
+        color: var(--secondary-light);
+        @include shadow-2dp();
+        transform: translateY(1px);
+    }
+
+    &:active {
+        background-color: var(--primary-darker);
+        color: var(--secondary-lighter);
+        box-shadow: none;
+        transform: translateY(2px);
+    }   
+
+    .card-image{
+        max-height: 200px;
+        width: 100%;
+        background-color: black;
+    }
+}

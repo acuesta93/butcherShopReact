@@ -1,0 +1,17 @@
+@import 'shadows';
+.logger{
+    width: 40%;
+    height: 100px;
+    background-color: var(--primary);
+    color: var(--secondary);
+    padding: 15px;
+    justify-content: center;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    @include shadow-4dp();
+    transition: background-color 150ms linear, color 150ms linear, box-shadow 150ms ease-in-out, transform 150ms ease-in-out;
+
+    &.logger-info{
+        align-items: center;
+    }
+}

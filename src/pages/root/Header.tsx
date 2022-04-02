@@ -35,12 +35,15 @@ export const Header = (props: HeaderProps) => {
         break;
       }
       case HeaderOptionEnum.TopSales: {
+        navigate('/top-sales');
         break;
       }
       case HeaderOptionEnum.Explore: {
+        navigate('/explore');
         break;
       }
       case HeaderOptionEnum.Login: {
+        navigate('/login');
         break;
       }
     }

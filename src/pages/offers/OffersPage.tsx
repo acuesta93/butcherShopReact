@@ -1,4 +1,5 @@
-import { Column } from 'components';
+import { Column, Row } from 'components';
+import { Card } from 'components/Card';
 import { Footer } from 'pages/root/Footer';
 import { Header } from 'pages/root/Header';
 import { ProductFilter } from 'pages/shared/ProductFilter';
@@ -14,6 +15,13 @@ export const OffersPage = (props: OffersPageProps) => {
     return <Column className='offers-page'>
         <Header />
         <ProductFilter />
+        <Row>
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+        </Row>
+
         <Footer />
     </Column>
     

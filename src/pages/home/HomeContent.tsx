@@ -4,7 +4,7 @@ import { Row, Column } from "components";
 
 import { Carrousel, CarrouseChild } from "./Carrousel";
 
-import chefImage from "assets/img/chef.jpg";
+import chefImage from "assets/img/chef.png";
 
 import "./HomeContent.scss";
 
@@ -16,7 +16,7 @@ export const HomeContent = (props: HomeContentProps) => {
         <Row className="img-wrapper">
           <img src={chefImage} />
         </Row>
-        <Row className="text-wrapper">Hola, amigos de YouTube. <br></br> Soy Iván el cocinero.</Row>
+        <Row className="text-wrapper">Welcome to the Butcher Store,<br></br>It is a website based on React, made to learn.</Row>
       </Row>
       <Carrousel>
         <CarrouseChild>Child 1</CarrouseChild>
