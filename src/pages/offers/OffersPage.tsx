@@ -19,7 +19,6 @@ export const OffersPage = (props: OffersPageProps) => {
             <Card />
             <Card />
             <Card />
-            <Card />
         </Row>
 
         <Footer />
